@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jquery 2</title>
+</head>
+<body>
+    <h1>Hai</h1>
+    <div>Ini Merupakan Div</div>
+    <div class="kotak">ini menggunakan class</div>
+    <p id="paragraf">ini menggunakan ID</p>
+</body>
+<!-- link cdn -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- costume jquery -->
+<script>
+    $(document).ready(function(){
+        $('h1,div,.kotak ,#paragraf').css({"background-color":"blue","color":"white"});
+    });
+</script>
+</html>
